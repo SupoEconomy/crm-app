@@ -1,0 +1,21 @@
+sessions/
+yarn.lock
+Serbot/
+tmp/
+images/
+usuarios/
+link.json
+
+# Bases de datos locales y respaldos
+storage/databases/database.json
+storage/databases/grupos.json
+storage/databases/redeem-codes.json
+storage/databases/branding.json
+storage/databases/group-links.json
+storage/databases/group-link-avatars/
+storage/databases/panel-domain.json
+storage/databases/database.bak
+storage/databases/*.bak
+storage/databases/*.tmp
+storage/branding/
+node_modules/

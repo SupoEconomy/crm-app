@@ -1,0 +1,52 @@
+{
+  "name": "botspamultra",
+  "version": "6.0.0",
+  "description": "Multi Device",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "plugins": "plugins"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "homepage": "https://github.com",
+  "author": {
+    "name": "Sunkovv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "awesome-phonenumber": "^3.4.0",
+    "cfonts": "^3.1.1",
+    "chalk": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.18.2",
+    "file-type": "^18.0.0",
+    "imapflow": "^1.7.2",
+    "lodash": "^4.17.21",
+    "lowdb": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.3.2",
+    "pino": "^8.6.1",
+    "qrcode-terminal": "^0.12.0",
+    "steno": "^2.1.0",
+    "syntax-error": "^1.4.0",
+    "ws": "^8.17.1",
+    "yargs": "^17.6.0"
+  },
+  "devDependencies": {
+    "localtunnel": "^2.0.2"
+  }
+}
